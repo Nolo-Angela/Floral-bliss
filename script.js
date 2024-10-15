@@ -1,32 +1,54 @@
-const button1 = document.querySelector("#button1");
-const shopCart = document.querySelector("#shop-btn");
-const info = document.querySelector("#learnMore");
-const addCart = [
-  {
-    name: 
-  },
-  {
-    
-  }
-];
-button1.onclick = shopNow;
-shopCart.onclick = addCart
+const checkout = 0;
+const cart = 0;
+const Items = 0;
 
-function update (addCart) {
-  shopCart.onclick = addCart[][];
-  button1.onclick = 
+const checkoutButton = document.querySelector("#checkout_btn");
+const shopNow = document.querySelector("#shop-btn");
+const cartButton = document.querySelector(".cart_btn");
+const clearButton = document.getElementById("#clear");
+
+// initializing buttons
+cartButton.onclick = goCheckout;
+checkoutButton.onclick = addItems;
+shopNow.onclick = [];
+
+function addItems() {
+  for () {
+    if (items >= 1) {
+      cart += 1
+    }
+  } 
 }
 
 function shopNow(){
-  cart();
   
 }
 
 const cart = () => {
   addCart();
-  cal();
+  
 }
 
 const checkout = () => {
   
 }
+
+const validation () {
+  
+}
+
+const goCheckout = () => {
+  if (cart >= 1) {
+    
+  }
+}
+
+function clearForm () {
+  const inputInformation = Array.from(document.querySelector());
+
+  for (const signIn of inputInformation) {
+    signIn.innerHTML = "";
+  }
+}
+
+clearButton.addEventListener("click", clearForm);
