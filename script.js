@@ -16,6 +16,8 @@ function addItems() {
   for () {
     if (items >= 1) {
       cart += 1
+    }else {
+    break;
     }
   } 
 }
@@ -25,7 +27,7 @@ function shopNow(){
 }
 
 const cart = () => {
-  addCart();
+  addItems();
   
 }
 
