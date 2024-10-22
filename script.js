@@ -48,6 +48,7 @@ const validation () {
     console.log(err);
   }
   finally {
+    //executed irregardless of the try / catch method
     document.write("</br  </Done");
   }
 }
