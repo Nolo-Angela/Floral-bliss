@@ -14,7 +14,7 @@ checkoutButton.onclick = addItems;
 shopNow.onclick = [];
 
 function addItems() {
-  for () {
+  for (i = 0; i < 1; i+=1;) {
     if (items >= 1) {
       cart += 1
     }else {
