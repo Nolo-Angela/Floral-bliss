@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
     
-    // Cart Functionality
+   /* // Cart Functionality
     const cart = JSON.parse(localStorage.getItem("cart")) || [];
     document.querySelectorAll(".pro button").forEach((button, index) => {
         button.addEventListener("click", () => {
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
             localStorage.setItem("cart", JSON.stringify(cart));
             alert("Added to cart!");
         });
-    });
+    }); */
     
     // Responsive Image & Grid Handling
     const resizeImages = () => {
